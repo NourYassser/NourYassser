@@ -60,6 +60,3 @@
 </div>
 
 ---
-
-#### 🐍 Snake Animation
-![Snake animation](https://raw.githubusercontent.com/NourYassser/NourYassser/output/github-snake.svg)
