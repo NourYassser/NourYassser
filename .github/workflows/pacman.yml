@@ -1,4 +1,4 @@
-name: Pac-Man Contribution Graph
+name: Generate Pac‑Man Contribution Graph
 
 on:
   push: {}
@@ -8,20 +8,18 @@ permissions:
   contents: write
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repo
+      - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Generate Pac-Man Graph
-        uses: Platane/pacman-contribution-graph@v2
+      - name: Generate Pac‑Man
+        uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/pacman-contribution-graph.svg?theme=dark&color_dots=#161b22,#006d32,#26a641,#39d353,#ebedf0
 
-      - name: Push Pac-Man files
+      - name: Push SVG to output
         uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
