@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Generate Pac-Man Graph
-        uses: Platane/pacman-contribution-graph@v1
+        uses: Platane/pacman-contribution-graph@v2
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
