@@ -37,6 +37,11 @@
 
 ---
 
+### Pac-Man 🕹️
+<p align="center">
+  <img src="https://raw.githubusercontent.com/NourYassser/NourYassser/output/pacman-contribution-graph.svg" alt="Pac-Man Animation" />
+</p>
+
 <h2 align="left">Connect with me</h2>
 
 <div align="left">
@@ -52,7 +57,5 @@
 
 ---
 
-### Fun Animations
-
 #### 🐍 Snake Animation
-![Snake animation](https://raw.githubusercontent.com/YourUsername/YourUsername/output/github-snake.svg)
+![Snake animation](https://raw.githubusercontent.com/NourYassser/NourYassser/output/github-snake.svg)
